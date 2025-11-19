@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cart Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+  <!-- Header Section -->
+  <header>
+    <div>
+        <img src="images/WhatsApp Image 2025-08-25 at 23.30.53.jpeg"alt=" campany logo" class="logo">
+          <ul>
+<div class="cart-form">
+    <h1>Shopping Cart</h1>
+
+</div>
+ <nav class="navbar">
+      <ul class="navlink">
+
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="products.html">products</a></li>
+        <li><a href="reviews.html">reviews</a></li>
+      </ul>
+ </nav>
+<body>
+    <form action="/submit-cart" method="post">
+        <label for="name">CVV:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="card  number">Card number:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="card expiry date">expiry date card:</label>
+        <input type="text" id="address" name="address" required>
+
+        <button type="submit">Submit</button>
+        <div class="cart-summary">
+            <h2>Cart Summary</h2>
+            <p>Total Items: </p>
+            <p>Total Price: </p>
+            <p>Subtotal: </p>
+            
+        </div>
+    </form>
+</body>
+</html>

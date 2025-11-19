@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>services</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+      <!-- Header Section -->
+  <header>
+    <div>
+        <img src="images/WhatsApp Image 2025-08-25 at 23.30.53.jpeg"alt=" campany logo" class="logo">
+          <ul>
+
+    <div class="service">
+         <nav class="navbar">
+      <ul class="navlink">
+
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="products.html">products</a></li>
+        <li><a href="reviews.html">reviews</a></li>
+       </ul>
+         </nav>
+        <h1 class="do">Our Services</h1>
+        <p>At Mamma_Ruby's_Bakery, we offer a wide range of delicious baked goods made with love and the finest ingredients.</p>
+        <p>Whether you're looking for a custom cake for a special occasion, freshly baked bread, or delectable pastries, we've got you covered!</p>
+        <p>Our services include:</p>
+        <ul>
+            <li>Custom Cakes: Tailored to your specifications for birthdays, weddings, and other celebrations.</li>
+            <li>Freshly Baked Bread: A variety of breads including sourdough, whole wheat, and specialty loaves.</li>
+            <li>Pastries and Desserts: From croissants to tarts, we have a sweet treat for every craving.</li>
+            <li>Catering Services: Perfect for events and gatherings, we provide a selection of our best offerings.</li>
+            <li>Online Ordering: Conveniently order your favorite items from our website for pickup or delivery.</li>
+        </ul>
+        <p>Visit us in-store or explore our website to discover more about our products and services. We look forward to service 
+         
+   <script>
+        // Function to show a notification and prevent the form from submitting
+        function showNotification(event) {
+            // Prevent the form from submitting the traditional way (no page reload or redirect)
+            event.preventDefault();
+
+            // Show the confirmation notification
+            alert('Your delivery request has been submitted successfully! We will contact you shortly.');
+
+            // Optionally reset the form fields after submission
+            document.getElementById("delivery-form").reset();
+        }
+    </script>
+</head>
+<body>
+
+    <h2>We look forward to hearing from you!</h2>
+    <h3>Follow us on social media for the latest updates and special offers!</h3>
+    <p>Facebook | Instagram | Twitter</p>
+    <h3>Visit us at our bakery to experience the warmth and aroma of freshly baked goods!</h3>
+    <p>Corner Christiaan de Wet Road and Millennium Boulevard, Strubens Valley, Roodepoort, 1735, South Africa.</p>
+
+    <h3>Delivery Options:</h3>
+    <!-- Form begins here -->
+    <form id="delivery-form" onsubmit="showNotification(event)">
+        <label for="delivery">Choose a delivery option:</label><br>
+        <select id="delivery" name="delivery">
+            <option value="pickup">In-Store Pickup</option>
+            <option value="local-delivery">Local Delivery</option>
+            <option value="shipping">Shipping</option>
+        </select><br><br>
+
+        <label for="address">Street Address:</label><br>
+        <input type="text" id="address" name="address"><br><br>
+
+        <label for="street">Street:</label><br>
+        <input type="text" id="street" name="street"><br><br>
+
+        <label for="suburb">Suburb:</label><br>
+        <input type="text" id="suburb" name="suburb"><br><br>
+
+        <label for="city">City:</label><br>
+        <input type="text" id="city" name="city"><br><br>
+
+        <label for="province">Province:</label><br>
+        <input type="text" id="province" name="province"><br><br>
+
+        <label for="postcode">Postcode:</label><br>
+        <input type="text" id="postcode" name="postcode"><br><br>
+
+        <label for="date">Preferred Delivery Date:</label><br>
+        <input type="date" id="date" name="date"><br><br>
+
+        <label for="time">Preferred Delivery Time:</label><br>
+        <input type="time" id="time" name="time"><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+        <br><br>
+
+        
+        <p>We offer delivery services within a 10-mile radius. Contact us for more details!</p>
+        <h3>Thank you for choosing Mamma_Ruby's_Bakery!</h3>
+    </div>
+    <!-- Footer -->
+  <footer>  
+    <p>&copy; 2025 Mamma_Ruby,s_Bakery. All rights reserved.</p>
+</body>
+</html>
